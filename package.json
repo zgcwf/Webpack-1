@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf dist && npx webpack --config webpack.config.pro.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open --host 127.0.0.1 --port 8888"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "html-webpack-plugin": "^4.4.1",
     "less": "^3.11.0",
     "less-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^1.2.0",
     "node-sass": "^5.0.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^5.0.0",

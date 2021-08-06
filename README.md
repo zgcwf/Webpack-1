@@ -18,6 +18,8 @@ webpack打包处理css less scss
 
 打包处理js文件中的高级语法
 
+懒加载
+
 实现代码和步骤：
 
 链接：http://note.youdao.com/noteshare?id=61c7adf6e76e96987d734fdf18498d51&sub=226F96C08C944170B4D7E31F9DDE7270
